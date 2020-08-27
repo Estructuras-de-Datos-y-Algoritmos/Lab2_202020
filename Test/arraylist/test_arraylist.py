@@ -59,8 +59,6 @@ def lstbooks(books):
         slt.addLast(lst,books[i])    
     return lst
 
-
-
 def test_empty (lst):
     assert slt.isEmpty(lst) == True
     assert slt.size(lst) == 0
